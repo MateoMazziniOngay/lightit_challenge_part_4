@@ -1,0 +1,22 @@
+{
+  "name": "medical-appointments-ui-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright TypeScript UI automation for medical appointment E2E flows.",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report",
+    "format": "prettier --check .",
+    "format:write": "prettier --write ."
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.45.0",
+    "@types/node": "^20.14.10",
+    "dotenv": "^16.4.5",
+    "prettier": "^3.3.2",
+    "typescript": "^5.5.3"
+  }
+}
