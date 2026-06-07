@@ -19,7 +19,6 @@ The flows are performed and validated through the UI. Playwright's native `APIRe
 ## Folder Structure
 
 ```text
-ui-automation/
   tests/appointments/       Appointment E2E spec
   pages/                    Page Object Model classes
   api/clients/              Typed API clients
